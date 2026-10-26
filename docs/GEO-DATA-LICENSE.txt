@@ -1,0 +1,13 @@
+Geographic data: © OpenStreetMap contributors.
+Basemap: OpenFreeMap / OpenMapTiles / OpenStreetMap.
+OpenStreetMap-derived coordinates and features are available under the Open Data Commons Open Database License (ODbL) 1.0.
+License: https://opendatacommons.org/licenses/odbl/1-0/
+Copyright and attribution: https://www.openstreetmap.org/copyright
+
+geo-data.js retains original OpenStreetMap object URLs for locations checked on 2026-10-25.
+expanded-places.js retains coordinateSource, coordinateVerificationUrl, coordinateMethod and a review note for additions checked on 2026-10-26.
+These include existing verified OSM objects, OSM coordinates read on Mapcarta, and named points or representative road segments read from OpenFreeMap's OpenMapTiles vector source. Vector feature IDs are retained as provenance, not assumed to be canonical OSM object IDs.
+Some representative coordinates are geographic facts read from Wikipedia/Wikidata; their source URLs remain in the individual records. The ODbL notice describes OpenStreetMap-derived records and does not claim ownership over other publishers' material.
+The Xiaohe Park record uses a public Amap GCJ-02 location, approximately inverted to WGS84 using coordtransform 2.1.2 (https://www.npmjs.com/package/coordtransform) and checked by forward transformation. It is a representative park location; no conversion library is included in the runtime website.
+
+Street, village, park, museum-group and large-area points are representative positions, not exact visitor entrances or individual hotels. No road routing is derived from these points. Amap links search by place name instead of treating WGS84 coordinates as Amap coordinates.

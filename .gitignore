@@ -1,0 +1,8 @@
+.DS_Store
+._*
+node_modules/
+output/
+.playwright-cli/
+.env
+.env.*
+*.tar.gz
